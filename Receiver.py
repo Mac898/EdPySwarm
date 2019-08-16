@@ -10,14 +10,20 @@ Ed.Tempo = Ed.TEMPO_MEDIUM
 #--------setup-----------
 tune = Ed.TuneString(150)
 tunecount = 0
+Ed.RegisterEventHandler(Ed.EVENT_TUNE_FINISHED, "TuneFinished")
 
-# ----- test send a start
 
-#nothing here right now
+# ----- functions
+def TuneFinished():
+    
 
 # -- matching engine ----
 Ed.ReadIRData()
 while True:
+        #send data
+        
+
+        #get new data
         processing = Ed.ReadIRData()
         #begin special
         if processing == 3:
