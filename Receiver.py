@@ -62,7 +62,7 @@ while True:
         if processing == 4:
             tunecount = 0
         if processing == 9:
-            Ed.Drive(Ed.STOP, ED.SPEED_10, 0)
+            Ed.Drive(Ed.STOP, Ed.SPEED_10, 0)
             
         #begin movement
         if processing == 10:
