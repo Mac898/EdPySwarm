@@ -146,6 +146,17 @@ while True:
         if processing == 49:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_10, Ed.ReadIRData())
         
+        #Set Tempos
+        if processing = 228:
+            Ed.Tempo = Ed.TEMPO_VERY_SLOW
+        if processing = 229:
+            Ed.Tempo = Ed.TEMPO_SLOW
+        if processing = 230:
+            Ed.Tempo = Ed.TEMPO_MEDIUM
+        if processing = 231:
+            Ed.Tempo = Ed.TEMPO_FAST
+        if processing = 232:
+            Ed.Tempo = Ed.TEMPO_VERY_FAST
         #begin music
         if processing == 233:
             tune[tunecount] = "m"
