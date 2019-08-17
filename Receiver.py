@@ -4,8 +4,8 @@ import Ed
 Ed.EdisonVersion = Ed.V2
 
 Ed.DistanceUnits = Ed.CM
-Ed.Tempo = Ed.TEMPO_MEDIUM
 
+Ed.Tempo = Ed.TEMPO_MEDIUM
 #--------setup-----------
 tune = Ed.TuneString(150)
 tunecount = 0
@@ -191,22 +191,6 @@ while True:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_10, Ed.ReadIRData())
             Complete()
         
-        #Set Tempos
-        if processing = 228:
-            Ed.Tempo = Ed.TEMPO_VERY_SLOW
-            Complete()
-        if processing = 229:
-            Ed.Tempo = Ed.TEMPO_SLOW
-            Complete()
-        if processing = 230:
-            Ed.Tempo = Ed.TEMPO_MEDIUM
-            Complete()
-        if processing = 231:
-            Ed.Tempo = Ed.TEMPO_FAST
-            Complete()
-        if processing = 232:
-            Ed.Tempo = Ed.TEMPO_VERY_FAST
-            Complete()
         #begin music
         if processing == 233:
             tune[tunecount] = "m"
