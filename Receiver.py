@@ -53,17 +53,17 @@ def TimerFinished():
 # -- matching engine ----
 Ed.ReadIRData()
 while True:
-        #send data
-        
-
         #get new data
         processing = Ed.ReadIRData()
+        
         #begin special
         if processing == 3:
             Ed.PlayTune(tune)
         if processing == 4:
             tunecount = 0
-
+        if processing == 9:
+            Ed.Drive(Ed.STOP, ED.SPEED_10, 0)
+            
         #begin movement
         if processing == 10:
             Ed.Drive(Ed.FORWARD, Ed.SPEED_1, Ed.ReadIRData())   
