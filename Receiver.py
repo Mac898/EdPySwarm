@@ -11,12 +11,45 @@ Ed.Tempo = Ed.TEMPO_MEDIUM
 tune = Ed.TuneString(150)
 tunecount = 0
 Ed.RegisterEventHandler(Ed.EVENT_TUNE_FINISHED, "TuneFinished")
-
-
+Ed.RegisterEventHandler(Ed.EVENT_LINE_TRACKER_SURFACE_CHANGE, "SurfaceChange")
+Ed.RegisterEventHandler(Ed.EVENT_LINE_TRACKER_ON_BLACK, "OnBlack")
+Ed.RegisterEventHandler(Ed.EVENT_LINE_TRACKER_ON_WHITE, "OnWhite")
+Ed.RegisterEventHandler(Ed.EVENT_KEYPAD_ROUND, "KeypadRound")
+Ed.RegisterEventHandler(Ed.EVENT_KEYPAD_TRIANGLE, "KeypadTriangle")
+Ed.RegisterEventHandler(Ed.EVENT_DRIVE_STRAIN, "DriveStrain")
+Ed.RegisterEventHandler(Ed.EVENT_OBSTACLE_AHEAD, "ObstacleAhead")
+Ed.RegisterEventHandler(Ed.EVENT_OBSTACLE_RIGHT, "ObstacleRight")
+Ed.RegisterEventHandler(Ed.EVENT_OBSTACLE_LEFT, "ObstacleLeft")
+Ed.RegisterEventHandler(Ed.EVENT_OBSTACLE_ANY, "ObstacleAny")
+Ed.RegisterEventHandler(Ed.EVENT_CLAP_DETECTED, "ClapDetected")
+Ed.RegisterEventHandler(Ed.EVENT_TIMER_FINISHED, "TimerFinished")
 # ----- functions
 def TuneFinished():
-    
-
+    Ed.SendIRData(188)
+def SurfaceChange():
+    Ed.SendIRData(189)
+def OnBlack():
+    Ed.SendIRData(190)    
+def OnWhite():
+    Ed.SendIRData(191)
+def KeypadRound():
+    Ed.SendIRData(192)
+def KeypadTriangle():
+    Ed.SendIRData(193)
+def DriveStrain():
+    Ed.SendIRData(194)
+def ObstacleAhead():
+    Ed.SendIRData(195)
+def ObstacleRight():
+    Ed.SendIRData(196)
+def ObstacleLeft():
+    Ed.SendIRData(197)
+def ObstacleAny():
+    Ed.SendIRData(198)
+def ClapDetected():
+    Ed.SendIRData(199)
+def TimerFinished():
+    Ed.SendIRData(200)
 # -- matching engine ----
 Ed.ReadIRData()
 while True:
