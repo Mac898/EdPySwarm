@@ -1,4 +1,3 @@
-
 #-------------Setup----------------
 
 import Ed
@@ -6,7 +5,7 @@ Ed.EdisonVersion = Ed.V2
 
 Ed.DistanceUnits = Ed.CM
 Ed.Tempo = Ed.TEMPO_MEDIUM
-Ed.
+
 #--------setup-----------
 tune = Ed.TuneString(150)
 tunecount = 0
