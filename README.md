@@ -8,5 +8,7 @@ Dependencies:
 
 EdPy: 
 None
+
 Python Controller Script:
-None
+pigpio
+time
