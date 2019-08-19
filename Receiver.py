@@ -73,159 +73,211 @@ while True:
             
         #begin movement
         if processing == 10:
+            Wait()
             Ed.Drive(Ed.FORWARD, Ed.SPEED_1, Ed.ReadIRData())   
             Complete()
         if processing == 11:
+            Wait()
             Ed.Drive(Ed.FORWARD, Ed.SPEED_2, Ed.ReadIRData())  
             Complete()
         if processing == 12:
+            Wait()
             Ed.Drive(Ed.FORWARD, Ed.SPEED_3, Ed.ReadIRData())
             Complete()
         if processing == 13:
+            Wait()
             Ed.Drive(Ed.FORWARD, Ed.SPEED_4, Ed.ReadIRData()) 
             Complete()
         if processing == 14:
+            Wait()
             Ed.Drive(Ed.FORWARD, Ed.SPEED_5, Ed.ReadIRData())   
             Complete()
         if processing == 15:
+            Wait()
             Ed.Drive(Ed.FORWARD, Ed.SPEED_6, Ed.ReadIRData())   
             Complete()
         if processing == 16:
+            Wait()
             Ed.Drive(Ed.FORWARD, Ed.SPEED_7, Ed.ReadIRData()) 
             Complete()
         if processing == 17:
+            Wait()
             Ed.Drive(Ed.FORWARD, Ed.SPEED_8, Ed.ReadIRData())   
             Complete()
         if processing == 18:
+            Wait()
             Ed.Drive(Ed.FORWARD, Ed.SPEED_9, Ed.ReadIRData())   
             Complete()
         if processing == 19:
+            Wait()
             Ed.Drive(Ed.FORWARD, Ed.SPEED_10, Ed.ReadIRData())        
             Complete()
         if processing == 20:
+            Wait()
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_1, Ed.ReadIRData())        
             Complete()
         if processing == 21:
+            Wait()
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_2, Ed.ReadIRData())        
             Complete()
         if processing == 22:
+            Wait()
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_3, Ed.ReadIRData())
             Complete()
         if processing == 23:           
+            Wait()
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_4, Ed.ReadIRData())
             Complete()
         if processing == 24:
+            Wait()
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_5, Ed.ReadIRData())        
             Complete()
         if processing == 25:
+            Wait()
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_6, Ed.ReadIRData())        
             Complete()
         if processing == 26:
+            Wait()
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_7, Ed.ReadIRData())        
             Complete()
         if processing == 27:
+            Wait()
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_8, Ed.ReadIRData())
             Complete()
         if processing == 28:
+            Wait()
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_9, Ed.ReadIRData())
             Complete()
         if processing == 29:
+            Wait()
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_10, Ed.ReadIRData())
             Complete()
         if processing == 30:
+            Wait()
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_1, Ed.ReadIRData())
             Complete()
         if processing == 31:
+            Wait()
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_2, Ed.ReadIRData())
             Complete()
         if processing == 32:
+            Wait()
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_3, Ed.ReadIRData())
             Complete()
         if processing == 33:
+            Wait()
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_4, Ed.ReadIRData())
             Complete()
         if processing == 34:
+            Wait()
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_5, Ed.ReadIRData())
             Complete()
         if processing == 35:
+            Wait()
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_6, Ed.ReadIRData())
             Complete()
         if processing == 36:
+            Wait()
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_7, Ed.ReadIRData())
             Complete()
         if processing == 37:
+            Wait()
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_8, Ed.ReadIRData())
             Complete()
         if processing == 38:
+            Wait()
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_9, Ed.ReadIRData())
             Complete()
         if processing == 39:
+            Wait()
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_10, Ed.ReadIRData())
             Complete()
         if processing == 40:
+            Wait()
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_1, Ed.ReadIRData())
             Complete()
         if processing == 41:
+            Wait()
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_2, Ed.ReadIRData())
             Complete()
         if processing == 42:
+            Wait()
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_3, Ed.ReadIRData())
             Complete()
         if processing == 43:
+            Wait()
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_4, Ed.ReadIRData())
             Complete()
         if processing == 44:
+            Wait()
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_5, Ed.ReadIRData())
             Complete()
         if processing == 45:
+            Wait()
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_6, Ed.ReadIRData())
             Complete()
         if processing == 46:
+            Wait()
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_7, Ed.ReadIRData())
             Complete()
         if processing == 47:
+            Wait()
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_8, Ed.ReadIRData())
             Complete()
         if processing == 48:
+            Wait()
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_9, Ed.ReadIRData())
             Complete()
         if processing == 49:
+            Wait()
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_10, Ed.ReadIRData())
             Complete()
         if processing == 50:
+            Wait()
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_1, Ed.ReadIRData())
             Complete()
         if processing == 51:
+            Wait()
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_2, Ed.ReadIRData())
             Complete()
         if processing == 52:
+            Wait()
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_3, Ed.ReadIRData())
             Complete()
         if processing == 53:
+            Wait()
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_4, Ed.ReadIRData())
             Complete()
         if processing == 54:
+            Wait()
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_5, Ed.ReadIRData())
             Complete()
         if processing == 55:
+            Wait()
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_6, Ed.ReadIRData())
             Complete()
         if processing == 56:
+            Wait()
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_7, Ed.ReadIRData())
             Complete()
         if processing == 57:
+            Wait()
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_8, Ed.ReadIRData())
             Complete()
         if processing == 58:
+            Wait()
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_9, Ed.ReadIRData())
             Complete()
         if processing == 59:
+            Wait()
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_10, Ed.ReadIRData())
             Complete()
         if processing == 60:
+            Wait()
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_1, Ed.ReadIRData())
             Complete()
         if processing == 61:
+            Wait()
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_2, Ed.ReadIRData())
             Complete()
         if processing == 62:
