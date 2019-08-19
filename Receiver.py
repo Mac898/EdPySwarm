@@ -63,345 +63,345 @@ while True:
         #begin special
         if processing == 3:
             Ed.PlayTune(tune)
-            Wait()
+            Complete()
         if processing == 4:
             tunecount = 0
-            Wait()
+            Complete()
         if processing == 9:
             Ed.Drive(Ed.STOP, Ed.SPEED_10, 0)
-            Wait()
+            Complete()
             
         #begin movement
         if processing == 10:
             Ed.Drive(Ed.FORWARD, Ed.SPEED_1, Ed.ReadIRData())   
-            Wait()
+            Complete()
         if processing == 11:
             Ed.Drive(Ed.FORWARD, Ed.SPEED_2, Ed.ReadIRData())  
-            Wait()
+            Complete()
         if processing == 12:
             Ed.Drive(Ed.FORWARD, Ed.SPEED_3, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 13:
             Ed.Drive(Ed.FORWARD, Ed.SPEED_4, Ed.ReadIRData()) 
-            Wait()
+            Complete()
         if processing == 14:
             Ed.Drive(Ed.FORWARD, Ed.SPEED_5, Ed.ReadIRData())   
-            Wait()
+            Complete()
         if processing == 15:
             Ed.Drive(Ed.FORWARD, Ed.SPEED_6, Ed.ReadIRData())   
-            Wait()
+            Complete()
         if processing == 16:
             Ed.Drive(Ed.FORWARD, Ed.SPEED_7, Ed.ReadIRData()) 
-            Wait()
+            Complete()
         if processing == 17:
             Ed.Drive(Ed.FORWARD, Ed.SPEED_8, Ed.ReadIRData())   
-            Wait()
+            Complete()
         if processing == 18:
             Ed.Drive(Ed.FORWARD, Ed.SPEED_9, Ed.ReadIRData())   
-            Wait()
+            Complete()
         if processing == 19:
             Ed.Drive(Ed.FORWARD, Ed.SPEED_10, Ed.ReadIRData())        
-            Wait()
+            Complete()
         if processing == 20:
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_1, Ed.ReadIRData())        
-            Wait()
+            Complete()
         if processing == 21:
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_2, Ed.ReadIRData())        
-            Wait()
+            Complete()
         if processing == 22:
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_3, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 23:           
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_4, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 24:
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_5, Ed.ReadIRData())        
-            Wait()
+            Complete()
         if processing == 25:
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_6, Ed.ReadIRData())        
-            Wait()
+            Complete()
         if processing == 26:
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_7, Ed.ReadIRData())        
-            Wait()
+            Complete()
         if processing == 27:
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_8, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 28:
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_9, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 29:
             Ed.Drive(Ed.BACKWARD, Ed.SPEED_10, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 30:
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_1, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 31:
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_2, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 32:
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_3, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 33:
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_4, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 34:
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_5, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 35:
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_6, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 36:
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_7, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 37:
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_8, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 38:
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_9, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 39:
             Ed.Drive(Ed.SPIN_LEFT, Ed.SPEED_10, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 40:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_1, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 41:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_2, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 42:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_3, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 43:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_4, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 44:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_5, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 45:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_6, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 46:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_7, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 47:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_8, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 48:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_9, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 49:
             Ed.Drive(Ed.SPIN_RIGHT, Ed.SPEED_10, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 50:
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_1, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 51:
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_2, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 52:
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_3, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 53:
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_4, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 54:
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_5, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 55:
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_6, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 56:
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_7, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 57:
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_8, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 58:
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_9, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 59:
             Ed.Drive(Ed.FORWARD_LEFT, Ed.SPEED_10, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 60:
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_1, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 61:
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_2, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 62:
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_3, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 63:
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_4, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 64:
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_5, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 65:
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_6, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 66:
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_7, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 67:
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_8, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 68:
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_9, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 69:
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_10, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 70:
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_1, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 71:
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_2, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 72:
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_3, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 73:
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_4, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 74:
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_5, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 75:
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_6, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 76:
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_7, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 77:
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_8, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 78:
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_9, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 79:
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_10, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 80:
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_1, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 81:
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_2, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 82:
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_3, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 83:
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_4, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 84:
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_5, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 85:
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_6, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 86:
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_7, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 87:
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_8, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 88:
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_9, Ed.ReadIRData())
-            Wait()
+            Complete()
         if processing == 89:
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_10, Ed.ReadIRData())
-            Wait()
+            Complete()
         #begin music
         if processing == 233:
             tune[tunecount] = "m"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 234:
             tune[tunecount] = "M"
             tunecount = tunecount + 1    
-            Wait()
+            Complete()
         if processing == 235:
             tune[tunecount] = "n"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 236:
             tune[tunecount] = "c"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 237:
             tune[tunecount] = "C"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 238:
             tune[tunecount] = "d"
             tunecount = tunecount + 1  
-            Wait()
+            Complete()
         if processing == 239:
             tune[tunecount] = "D"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 240:
             tune[tunecount] = "e"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 241:
             tune[tunecount] = "f"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 242:
             tune[tunecount] = "F"
             tunecount = tunecount + 1    
-            Wait()
+            Complete()
         if processing == 243:
             tune[tunecount] = "g"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 244:
             tune[tunecount] = "G"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 245:
             tune[tunecount] = "a"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 246:
             tune[tunecount] = "A"
             tunecount = tunecount + 1  
-            Wait()
+            Complete()
         if processing == 247:
             tune[tunecount] = "b"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 248:
             tune[tunecount] = "o"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 249:
             tune[tunecount] = "1"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 250:
             tune[tunecount] = "2"
             tunecount = tunecount + 1    
-            Wait()
+            Complete()
         if processing == 251:
             tune[tunecount] = "4"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 252:
             tune[tunecount] = "8"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 253:
             tune[tunecount] = "6"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
         if processing == 254:
             tune[tunecount] = "R"
             tunecount = tunecount + 1  
-            Wait()
+            Complete()
         if processing == 255:
             tune[tunecount] = "z"
             tunecount = tunecount + 1
-            Wait()
+            Complete()
