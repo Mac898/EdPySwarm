@@ -68,7 +68,7 @@ while True:
             tunecount = 0
             Complete()
         if processing == 9:
-            Ed.Drive(Ed.STOP, Ed.SPEED_10, 0)
+            Ed.Drive(Ed.STOP, Ed.SPEED_STOP, 0)
             Complete()
             
         #begin movement
@@ -281,87 +281,115 @@ while True:
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_2, Ed.ReadIRData())
             Complete()
         if processing == 62:
+            Wait()
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_3, Ed.ReadIRData())
             Complete()
         if processing == 63:
+            Wait()
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_4, Ed.ReadIRData())
             Complete()
         if processing == 64:
+            Wait()
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_5, Ed.ReadIRData())
             Complete()
         if processing == 65:
+            Wait()
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_6, Ed.ReadIRData())
             Complete()
         if processing == 66:
+            Wait()
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_7, Ed.ReadIRData())
             Complete()
         if processing == 67:
+            Wait()
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_8, Ed.ReadIRData())
             Complete()
         if processing == 68:
+            Wait()
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_9, Ed.ReadIRData())
             Complete()
         if processing == 69:
+            Wait()
             Ed.Drive(Ed.FORWARD_RIGHT, Ed.SPEED_10, Ed.ReadIRData())
             Complete()
         if processing == 70:
+            Wait()
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_1, Ed.ReadIRData())
             Complete()
         if processing == 71:
+            Wait()
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_2, Ed.ReadIRData())
             Complete()
         if processing == 72:
+            Wait()
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_3, Ed.ReadIRData())
             Complete()
         if processing == 73:
+            Wait()
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_4, Ed.ReadIRData())
             Complete()
         if processing == 74:
+            Wait()
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_5, Ed.ReadIRData())
             Complete()
         if processing == 75:
+            Wait()
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_6, Ed.ReadIRData())
             Complete()
         if processing == 76:
+            Wait()
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_7, Ed.ReadIRData())
             Complete()
         if processing == 77:
+            Wait()
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_8, Ed.ReadIRData())
             Complete()
         if processing == 78:
+            Wait()
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_9, Ed.ReadIRData())
             Complete()
         if processing == 79:
+            Wait()
             Ed.Drive(Ed.BACKWARD_LEFT, Ed.SPEED_10, Ed.ReadIRData())
             Complete()
         if processing == 80:
+            Wait()
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_1, Ed.ReadIRData())
             Complete()
         if processing == 81:
+            Wait()
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_2, Ed.ReadIRData())
             Complete()
         if processing == 82:
+            Wait()
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_3, Ed.ReadIRData())
             Complete()
         if processing == 83:
+            Wait()
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_4, Ed.ReadIRData())
             Complete()
         if processing == 84:
+            Wait()
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_5, Ed.ReadIRData())
             Complete()
         if processing == 85:
+            Wait()
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_6, Ed.ReadIRData())
             Complete()
         if processing == 86:
+            Wait()
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_7, Ed.ReadIRData())
             Complete()
         if processing == 87:
+            Wait()
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_8, Ed.ReadIRData())
             Complete()
         if processing == 88:
+            Wait()
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_9, Ed.ReadIRData())
             Complete()
         if processing == 89:
+            Wait()
             Ed.Drive(Ed.BACKWARD_RIGHT, Ed.SPEED_10, Ed.ReadIRData())
             Complete()
         #begin music
