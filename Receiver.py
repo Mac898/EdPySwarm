@@ -68,7 +68,7 @@ while True:
             tunecount = 0
             Complete()
         if processing == 9:
-            Ed.Drive(Ed.STOP, Ed.SPEED_STOP, 0)
+            Ed.Drive(Ed.STOP, Ed.STOP, 0)
             Complete()
             
         #begin movement
